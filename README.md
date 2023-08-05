@@ -41,25 +41,25 @@ make
 
 ### Usage examples: 
 
-- Includes the files "file.txt", "pic.jpg", and "expenses.ods" into backup.vpp
+- Includes the files "file.txt", "pic.jpg", and "expenses.ods" into backup.vpp </br> 
 ```./vina++ -i backup.vpp file.txt pic.jpg expenses.ods```
 
-- Updates "expenses.ods" in backup.vpp if the external file is newer
+- Updates "expenses.ods" in backup.vpp if the external file is newer </br> 
 ```./vina++ -a backup.vpp expenses.ods```
 
-- Extracts the file file.txt from backup.vpp
+- Extracts the file file.txt from backup.vpp </br> 
 ```./vina++ -x backup.vpp file.txt```
 
-- Extracts all files from backup.vpp
+- Extracts all files from backup.vpp </br> 
 ```./vina++ -x backup.vpp```
 
-- Moves the file "file.txt" after "expenses.ods" in backup.vpp
+- Moves the file "file.txt" after "expenses.ods" in backup.vpp </br> 
 ```./vina++ -m expenses.ods backup.vpp file.txt```
 
-- Includes the files "xy/dir/file.txt", "/dir/pic.jpg" into new_backup.vpp as "./xy/dir/file.txt", "./dir/pic.jpg"
+- Includes the files "xy/dir/file.txt", "/dir/pic.jpg" into new_backup.vpp as "./xy/dir/file.txt", "./dir/pic.jpg" </br> 
 ```./vina++ -i new_backup.vpp xy/dir/file.txt /dir/pic.jpg```
 
-- Extracts all files from new_backup.vpp, creating (if it does not exist) the entire directory hierarchy indicated for the file.
+- Extracts all files from new_backup.vpp, creating (if it does not exist) the entire directory hierarchy indicated for the file. </br> 
 ```./vina++ -x novo_backup.vpp```
 
 ## Data structure
