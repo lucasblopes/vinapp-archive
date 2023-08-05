@@ -33,7 +33,7 @@ make
 
 ### List: -c
 
-- List all files inside the archive. Similitar to tar -tvf.
+- List all files inside the archive. Similar to tar -tvf.
 
 ### Help: -h
 
