@@ -66,24 +66,24 @@ make
 
 ```c
 struct Directory {
-FILE *archive;       /* pointer to archive */
-struct Member *m;    /* matadata's array */ 
-int modified;        /* if is equal to 1 update archive */
-char *path;          /* archive's path */
-long pos;            /* directory position */
-long n;              /* number of members */
+  FILE *archive;       /* pointer to archive */
+  struct Member *m;    /* matadata's array */ 
+  int modified;        /* if is equal to 1 update archive */
+  char *path;          /* archive's path */
+  long pos;            /* directory position */
+  long n;              /* number of members */
 };
 
 struct Member { 
-char *path;          /* member's path */
-int plength;         /* path's size */
-long order;          /* insertion order */
-long pos;            /* member's position in the archive */
-uid_t uid;           /* user id */
-gid_t gid;           /* group id */
-mode_t mode;         /* permissions */
-size_t size;         /* member's size */
-time_t mtime;        /* modification time */
+  char *path;          /* member's path */
+  int plength;         /* path's size */
+  long order;          /* insertion order */
+  long pos;            /* member's position in the archive */
+  uid_t uid;           /* user id */
+  gid_t gid;           /* group id */
+  mode_t mode;         /* permissions */
+  size_t size;         /* member's size */
+  time_t mtime;        /* modification time */
 };
 ``` 
 
