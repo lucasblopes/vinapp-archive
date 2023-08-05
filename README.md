@@ -1,4 +1,4 @@
-# vina++ Archive
+# Vina++ Archive
 
 This program was developed in C language for the subject Programming II of my graduation in Computer Science. It is a simple archiver that does not perform data compression.
 
