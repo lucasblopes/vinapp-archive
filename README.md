@@ -68,7 +68,7 @@ make
 struct Directory {
   FILE *archive;       /* pointer to archive */
   struct Member *m;    /* matadata's array */ 
-  int modified;        /* if is equal to 1 update archive */
+  int modified;         /* if is equal to 1 update archive */
   char *path;          /* archive's path */
   long pos;            /* directory position */
   long n;              /* number of members */
